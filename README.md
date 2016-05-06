@@ -12,7 +12,7 @@ Write plugins in Swift and you are ready to use Unifty.
 #import <YourProduct-Swift.h>
 
 extern "C" {
-    [Messenger echo:"I'm sending message over Unifty!"];
+    [Messenger echo:@"I'm sending message over Unifty!"];
 }
 ```
 
