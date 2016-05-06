@@ -21,7 +21,7 @@
             var target = project.TargetGuidByName(PBXProject.GetUnityTargetName());
 
             project.SetBuildProperty(target, "EMBEDDED_CONTENT_CONTAINS_SWIFT", "YES");
-            project.SetBuildProperty(target, "SWIFT_OBJC_BRIDGING_HEADER", "$(SRCROOT)/../Assets/Plugins/iOS/Swifty/Swifty-Bridging-Header.h");
+            project.SetBuildProperty(target, "SWIFT_OBJC_BRIDGING_HEADER", "$(SRCROOT)/../Assets/Plugins/iOS/Unifty/Unifty-Bridging-Header.h");
 
             project.WriteToFile(path);
         }
